@@ -16,16 +16,12 @@ class Dog
   end
   
   
-  def bark=(dog_bark)
+  def bark
     
-    #instance variable 
-    @dog_barks = dog_bark
+    puts "woof!" 
+    
   end
   
-  def bark
-    #instance variable to get bark
-    @dog_barks
-  end 
-  
+ 
   
 end#end class
